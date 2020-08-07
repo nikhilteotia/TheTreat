@@ -5,7 +5,7 @@ const navSlide = () => {
   const nav = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links li");
   var hamImg = document.getElementById("ham-img");
-  const server = "http://127.0.0.1:5500";
+  const server = "http://nikhilteotia.github.io";
 
   hamMenu.addEventListener("click", () => {
     nav.classList.toggle("nav-active");
