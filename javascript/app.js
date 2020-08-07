@@ -10,13 +10,7 @@ const navSlide = () => {
   hamMenu.addEventListener("click", () => {
     nav.classList.toggle("nav-active");
 
-    //change of images is here note:: change path of sever with the current directory or with __dir if on server.
-
-    if (hamImg.src == server + "/images/icons/ham-menu.svg") {
-      hamImg.src = server + "/images/icons/cross.png";
-    } else {
-      hamImg.src = server + "/images/icons/ham-menu.svg";
-    }
+   
 
     // animation of navbar is here
     navLinks.forEach((link, index) => {
@@ -29,6 +23,21 @@ const navSlide = () => {
       }
     });
   });
+  
+   //change of images is here note:: change path of sever with the current directory or with __dir if on server.
+
+  
+  hamImg.addEventListener("click",() =>{
+  
+    
+    if (hamImg.src == server + "/images/icons/ham-menu.svg") {
+      hamImg.src = server + "/images/icons/cross.png";
+    } else {
+      hamImg.src = server + "/images/icons/ham-menu.svg";
+    }
+    
+  });
+  
 };
 
 navSlide();
