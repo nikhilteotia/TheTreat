@@ -5,8 +5,9 @@
           box-sizing: border-box;
 }
 
+html,
 body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .center {
@@ -44,6 +45,7 @@ body {
   width: 30%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  overflow: hidden;
 }
 
 .nav-links a {
