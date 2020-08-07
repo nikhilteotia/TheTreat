@@ -7,7 +7,8 @@
 
 html,
 body {
-  overflow: hidden;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .center {
@@ -164,13 +165,14 @@ body {
 
 @media screen and (max-width: 768px) {
   .hero-text-wrap {
-    margin-top: 40%;
+    margin-top: 50%;
   }
   .hero-text-wrap h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   .hero-text-wrap h3 {
     font-size: 2rem;
+    text-align: left;
   }
 }
 /*# sourceMappingURL=defult.css.map */

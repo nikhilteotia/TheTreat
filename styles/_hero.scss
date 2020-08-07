@@ -30,13 +30,14 @@
 
 @media screen and (max-width: 768px) {
   .hero-text-wrap {
-    margin-top: 40%;
+    margin-top: 50%;
     h1 {
-      font-size: 5rem;
+      font-size: 4.5rem;
     }
 
     h3 {
       font-size: 2rem;
+      text-align: left;
     }
   }
 }
